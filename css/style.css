@@ -1,0 +1,147 @@
+body{
+	overflow-x: hidden;
+}
+
+.main {
+	width: 90%;
+	padding: 3rem 0;
+	position: relative;
+	height: 100%;
+	padding-left: 3rem;
+}
+
+.sidebar{
+	height: 780px;
+}
+
+.sidebar img{
+	height: 100%;
+	object-fit: cover;
+}
+
+header{
+	margin-bottom: 3rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #f2f2f2;
+
+}
+
+header .title{
+	font-size: 1.5rem;
+}
+
+header img{
+	width: 70%;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	color: #707070;
+	letter-spacing: 3px;
+	line-height: 30px;
+
+}
+
+.menu-nav{
+	position: absolute;
+	bottom: 1rem;
+	width: 100%;
+}
+
+.menu-nav .nav .nav-item {
+	padding: 1rem;
+}
+
+.menu-nav .nav .nav-item .nav-link{
+	font-size: 1.5rem;
+	color: #C5630D;
+	transition: .2s;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.menu-nav .nav .nav-item .nav-link span{
+	font-size: .7rem;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: .5rem;
+	opacity: 0;
+	transition: all .2s;
+}
+
+.menu-nav .nav .nav-item.item-active .nav-link span, .menu-nav .nav .nav-item .nav-link:hover span{
+	opacity: 1;
+}
+
+
+.menu-nav .nav .nav-item .nav-link:hover, .menu-nav .nav .nav-item.item-active .nav-link{
+	color: #9A4E0C;
+	transform: scale(1.5);
+}
+
+.title{
+	text-transform: uppercase;
+	color: #353535;
+	font-weight: bold;
+}
+
+.title2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.subtitle {
+	color: #707070;
+}
+
+.label-title {
+	color: #707070;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+.section {
+	display: none;
+}
+
+#perfil {
+	display: block;
+}
+
+/*NAV TABS*/
+
+.nav-pills {
+	margin-top: 2rem;
+}
+
+.nav-pills .nav-link {
+	font-family: 'Montserrat', sans-serif;
+	color: #707070;
+}
+
+.nav-pills .nav-link.active{
+	background-color: #C5630D !important;
+}
+
+.card-panel{
+	padding: 2rem !important;
+	transform: scale(.95);
+	border: 1px solid #f2f2f2;
+}
+
+.card-panel .title{
+	font-size: 1rem;
+}
+
+.img-logo{
+	width: 60%;
+	margin-bottom: 2rem;
+}
