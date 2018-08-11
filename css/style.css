@@ -20,14 +20,14 @@ body{
 }
 
 header{
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	padding-bottom: 1rem;
 	border-bottom: 1px solid #f2f2f2;
 
 }
 
 header .title{
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 header img{
@@ -43,6 +43,7 @@ p {
 	color: #707070;
 	letter-spacing: 3px;
 	line-height: 30px;
+	font-size: .9rem;
 
 }
 
@@ -94,6 +95,7 @@ p {
 .title2{
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-bottom: 1.5rem;
 }
 
 .subtitle {
@@ -117,24 +119,37 @@ p {
 }
 
 /*NAV TABS*/
-
-.nav-pills {
-	margin-top: 2rem;
+.nav_tabs .nav-item{
+	margin-right: 1rem;
+	border-radius: 10px 10px 0 0;
+	transition: all .2s;
 }
 
-.nav-pills .nav-link {
-	font-family: 'Montserrat', sans-serif;
+.nav_tabs .nav-item.active, .nav_tabs .nav-item:hover {
+	background: #C5630D;
+}
+
+.nav_tabs .nav-item .nav-link {
 	color: #707070;
+	font-family: 'Montserrat', sans-serif;
+	transition: all .2s;
 }
 
-.nav-pills .nav-link.active{
-	background-color: #C5630D !important;
+.nav_tabs .nav-item.active .nav-link,.nav_tabs .nav-item:hover .nav-link{
+	color: #fff;
+}
+
+.content_tabs {
+	padding: 1rem 2rem;
+	border: 1px solid #f2f2f2;
+	background: #f2f2f2;
 }
 
 .card-panel{
 	padding: 2rem !important;
 	transform: scale(.95);
 	border: 1px solid #f2f2f2;
+	background: #fff;
 }
 
 .card-panel .title{
@@ -144,4 +159,10 @@ p {
 .img-logo{
 	width: 60%;
 	margin-bottom: 2rem;
+}
+
+@media (min-width: 1280px) and (max-width: 1366px){
+	.sidebar {
+		height: 700px;
+	}
 }

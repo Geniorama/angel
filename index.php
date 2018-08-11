@@ -37,45 +37,24 @@
 					</div>
 					<div id="educacion" class="section">
 						<h2 class="title2">Educación</h2>
-						<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-						  <li class="nav-item">
-						    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">2009 -2015</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">2016 -2017</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">2018</a>
-						  </li>
+						
+						<ul class="nav nav_tabs">
+							<li class="nav-item active"><a href="#" class="nav-link">2013 - 2015</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">Item</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">Item</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">Item</a></li>
 						</ul>
-						<div class="tab-content" id="pills-tabContent">
-						  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-						  	<div class="row text-center">
-						  		<div class="col-12 col-md-4 card-panel">
-						  			<img src="img/logo_panamericana.png" alt="" class="img-fluid img-logo">
-						  			<h5 class="subtitle">Titulo</h5>
-						  			<h4 class="title">Técnico Profesional en Operaciones Comerciales</h4><br>
-						  			<h5 class="subtitle">Universidad</h5>
-						  			<h4 class="title">Unipanamericana</h4>
-						  		</div>
-						  		<div class="col-12 col-md-4 card-panel">
-						  			<img src="img/logo_panamericana.png" alt="" class="img-fluid img-logo">
-						  			<h5 class="subtitle">Titulo</h5>
-						  			<h4 class="title">Tecnólogo en Gestión de la Publicidad</h4><br>
-						  			<h5 class="subtitle">Universidad</h5>
-						  			<h4 class="title">Unipanamericana</h4>
-						  		</div>
-						  		<div class="col-12 col-md-4 card-panel">
-						  			<img src="img/logo_panamericana.png" alt="" class="img-fluid img-logo">
-						  			<h5 class="subtitle">Titulo</h5>
-						  			<h4 class="title">Profesional en Mercadeo y publicidad</h4><br>
-						  			<h5 class="subtitle">Universidad</h5>
-						  			<h4 class="title">Unipanamericana</h4>
-						  		</div>
-						  	</div>
-						  </div>
-						  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><p>hola</p></div>
-						  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+
+						<div class="content_tabs">
+							<div class="section-content">
+								<div class="row text-center">
+									<div class="col-12 col-md-4 card-panel">
+										<img src="img/logo_panamericana.png" alt="" class="img-fluid img-logo">
+										<h4 class="subtitle">Titulo</h4>
+										<h3 class="title">Técnico Profesional en Operaciones comerciales</h3>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</main>
